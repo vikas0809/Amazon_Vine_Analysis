@@ -17,17 +17,29 @@ The data from the table which contains all the review information i.e vine_table
  
  - Step 2: Create tables to store transformed data.
  
+ [Schema](!linlk)
+ 
  - Step 1: In Google collab notebook, install Pyspark and Postgress drivers that will allow us to interact with Postgress.
+ 
+ ![Image](Images/1.png) 
  
  - Step 2: Setting up spark session.
  
+  ![Image](Images/2.png) 
+ 
  - Step 3: Loading Amazon data into Spark Dataframes.
+ 
+  ![Image](Images/3.png) 
  
  - Step 4: Create various data frames which match our database schema.
  
  - Step 5: Connect to the AWS RDS instance.
  
+  ![Image](Images/4.png) 
+ 
  - Step 6: Write each data frame to its table.
+ 
+  ![Image](Images/5.png) 
 
 
 ## Analysis Process
@@ -37,15 +49,21 @@ Using pgAdmin, we extracted the vine_table into a CSV file and loaded that into 
 We performed filter operations using the loc function and arithmetic operations to calculate the following:
 
  - 1: Total number of five-star reviews.
+ 
+  ![Image](Images/6.png) 
 
  - 2: Percentage of paid five-star reviews in the vine program.
  
+  ![Image](Images/7.png) 
+ 
  - 3: Percentage of unpaid five-star reviews. 
+ 
+  ![Image](Images/8.png) 
 
 
 ## Results
 
-Based on the calculations ,we conclude that it is not worth spending money on Amazon vine programs as we get more five-star reviews from customers i.e. unpaid.Company should spend this chink of data on other marketing strategies.
+Based on the calculations, we conclude that it is not worth spending money on Amazon vine programs as we get more five-star reviews from customers i.e. unpaid. The company should spend this chink of data on other marketing strategies.
 
  
  
