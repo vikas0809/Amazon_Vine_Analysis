@@ -39,7 +39,7 @@ The data from the table which contains all the review information i.e vine_table
  
  - Step 6: Write each data frame to its table.
  
-  ![Image](Images/5.png) 
+  ![Image](Images/6.png) 
 
 
 ## Analysis Process
@@ -50,20 +50,22 @@ We performed filter operations using the loc function and arithmetic operations 
 
  - 1: Total number of five-star reviews.
  
-  ![Image](Images/6.png) 
+  ![Image](Images/7.png) 
 
  - 2: Percentage of paid five-star reviews in the vine program.
  
-  ![Image](Images/7.png) 
+  ![Image](Images/8.png) 
  
  - 3: Percentage of unpaid five-star reviews. 
  
-  ![Image](Images/8.png) 
+  ![Image](Images/9.png) 
 
 
 ## Results
 
-Based on the calculations, we conclude that it is not worth spending money on Amazon vine programs as we get more five-star reviews from customers i.e. unpaid. The company should spend this chink of data on other marketing strategies.
+Based on the calculations, we conclude that it is not worth spending money on Amazon vine programs as we get more five-star reviews from customers i.e. unpaid. Only 38.24% of paid reviews are five stars. On the other side, more than half of un-paid reviews, i.e. 54.47%, are five-star reviews.
+
+The company should spend this chunk of data on other marketing strategies.
 
  
  
