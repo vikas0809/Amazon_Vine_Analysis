@@ -35,7 +35,7 @@ The data from the table which contains all the review information i.e vine_table
  
  - Step 5: Connect to the AWS RDS instance.
  
-  ![Image](Images/4.png) 
+  ![Image](Images/5.png) 
  
  - Step 6: Write each data frame to its table.
  
