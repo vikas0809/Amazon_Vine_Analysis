@@ -14,12 +14,19 @@ The data from the table which contains all the review information i.e vine_table
 ## ETL Process.
 
  - Step 1: In pgAdmin, connect to the AWS database.
+ 
  - Step 2: Create tables to store transformed data.
+ 
  - Step 1: In Google collab notebook, install Pyspark and Postgress drivers that will allow us to interact with Postgress.
+ 
  - Step 2: Setting up spark session.
+ 
  - Step 3: Loading Amazon data into Spark Dataframes.
+ 
  - Step 4: Create various data frames which match our database schema.
+ 
  - Step 5: Connect to the AWS RDS instance.
+ 
  - Step 6: Write each data frame to its table.
 
 
@@ -27,13 +34,18 @@ The data from the table which contains all the review information i.e vine_table
 
 Using pgAdmin, we extracted the vine_table into a CSV file and loaded that into a data frame using Jupyter Notebook and pandas library.
 
-We performed filter operations using the loc function and calculated the following:
+We performed filter operations using the loc function and arithmetic operations to calculate the following:
 
  - 1: Total number of five-star reviews.
 
- - 2: Percentage of paid five-star reviews.
+ - 2: Percentage of paid five-star reviews in the vine program.
  
  - 3: Percentage of unpaid five-star reviews. 
+
+
+## Results
+
+Based on the calculations ,we conclude that it is not worth spending money on Amazon vine programs as we get more five-star reviews from customers i.e. unpaid.Company should spend this chink of data on other marketing strategies.
 
  
  
